@@ -1,0 +1,29 @@
+body {
+
+    font-family: sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    color: #fff;
+
+ }
+
+/* Container for the main content of the footer (newsletter and links) */
+
+.container {
+
+    display: flex; /* Enable flexbox for layout */
+
+    align-items: flex-start; /* Align items to the top */
+
+    justify-content: space-between; /* Distribute space between items */
+
+    padding: 50px;
+
+    position: relative;
+
+    z-index: 1; /* Ensure content is above any potential background */
+
+}
