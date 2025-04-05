@@ -27,3 +27,243 @@ body {
     z-index: 1; /* Ensure content is above any potential background */
 
 }
+
+/* Newsletter subscription section */
+
+.newsletter {
+
+    flex-grow: 1; /* Allow newsletter to take up more space */
+
+    display: flex; /* Enable flexbox for internal layout */
+
+    flex-direction: column; /* Arrange items vertically */
+
+    width: 100%;
+
+    text-align: left;
+
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+
+}
+
+/* Newsletter paragraph text */
+
+.newsletter p {
+
+    font-size: 1.2em;
+
+    margin-bottom: 10px;
+
+    display: block;
+
+    text-align: left;
+
+    word-wrap: break-word; /* Prevent long words from breaking layout */
+
+    padding-right: 5px;
+
+    padding-left: 5px;
+
+ 
+
+}
+
+/* Newsletter form */
+
+.newsletter form {
+
+    display: flex; /* Align input and button in the same line */
+
+    align-items: center; /* Vertically align input and button */
+
+}
+
+/* Newsletter email input field */
+
+.newsletter input[type="email"] {
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    margin-right: 10px;
+
+    display: inline-block;
+
+    width: 100%;
+
+    max-width: 300px;
+
+    box-sizing: border-box;
+
+}
+
+/* Newsletter subscribe button */
+
+.newsletter button[type="submit"] {
+
+    background-color: #CC5500;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+
+}
+
+/* Container for quick links and technologies sections */
+
+.quick-links-technologies {
+
+    display: flex; /* Arrange quick links and technologies side by side */
+
+    flex-direction: row;
+
+    justify-content: flex-end; /* Push content to the right */
+
+    width: 50%;
+
+}
+
+/* Quick links section */
+
+.quick-links, .technologies {
+
+    display: flex; /* Enable flexbox for internal layout */
+
+    flex-direction: column; /* Arrange items vertically */
+
+    text-align: left;
+
+    margin-left: 20px;
+
+    flex: 1; /* Allow sections to take equal available space */
+
+}
+
+/* Quick links and technologies section headings */
+
+.quick-links h3, .technologies h3 {
+
+    font-size: 14px;
+
+    margin-bottom: 10px;
+
+}
+
+/* Quick links and technologies unordered lists */
+
+.quick-links ul, .technologies ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+    font-size: 12px;
+
+ 
+
+}
+
+/* Quick links and technologies list items */
+
+.quick-links li, .technologies li {
+
+    margin-bottom: 5px;
+
+}
+
+/* Quick links and technologies links */
+
+.quick-links a, .technologies a {
+
+    color: #030000;
+
+    text-decoration: none;
+
+}
+
+/* Main footer section */
+
+.footer {
+
+    text-align: left;
+
+    padding: 20px 50px;
+
+    background-color: #73A899;
+
+    color: #020202;
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+/* Bottom part of the footer containing the logo */
+
+.footer-bottom {
+
+    text-align: left;
+
+    padding: 10px 50px; /* Add left/right padding to match footer */
+
+    position: relative;
+
+    z-index: 1;
+
+    border-top: 1px solid #CC5500; /* Separator line */
+
+}
+
+/* Container to align the logo and other bottom content */
+
+.footer-bottom-content {
+
+    display: flex; /* Enable flexbox for layout */
+
+    align-items: center; /* Vertically align logo and text */
+
+}
+
+/* Footer logo image */
+
+.footer-logo-img {
+
+    width: 150px;
+
+    height: auto;
+
+    vertical-align: middle;
+
+    margin-right: 20px; /* Add some spacing between logo and text */
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+/* Paragraph within the footer bottom content */
+
+.footer-bottom-content p {
+
+    margin: 0; /* Remove default paragraph margins */
+
+}
+
+ 
