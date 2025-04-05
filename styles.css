@@ -266,4 +266,129 @@ body {
 
 }
 
+/* Small tablets and iPads (up to 768px width - Portrait iPad Mini) */
+
+@media (max-width: 768px) {
+
+    .container {
+
+        flex-direction: column; /* Stack newsletter and links vertically */
+
+        align-items: stretch; /* Make items take full width */
+
+        padding: 20px; /* Consistent padding */
+
+    }
+
+    .quick-links-technologies {
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: row; /* Arrange quick links and technologies side by side again */
+
+        justify-content: space-around; /* Space them evenly */
+
+    }
+
+    .quick-links, .technologies {
+
+        margin-left: 0; /* Remove left margin on mobile */
+
+        width: 45%; /* Give some width to each section */
+
+    }
+
+    .footer-bottom {
+
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+
+    }
+
+    .footer-bottom-content {
+
+        flex-direction: column; /* Stack logo and text vertically */
+
+        align-items: flex-start; /* Align items to the start on smaller screens */
+
+    }
+
+    .footer-logo-img {
+
+        margin-right: 0;
+
+        margin-bottom: 10px;
+
+    }
+
+}
+
+/* iPhone and smaller screens */
+
+@media (max-width: 480px) {
+
+    .newsletter form {
+
+        flex-direction: column; /* Stack input and button vertically */
+
+    }
+
+ 
+
+    .newsletter p {
+
+        font-size: 1em; /* Adjust font size for smaller screens */
+
+       
+
+       
+
+    }
+
+    .newsletter input[type="email"] {
+
+        margin-right: 0;
+
+        margin-bottom: 10px;
+
+        width: 100%; /* Make input full width */
+
+        box-sizing: border-box;
+
+       
+
+    }
+
+    .newsletter button[type="submit"] {
+
+        width: 100%; /* Make button full width */
+
+    }
+
+    .quick-links-technologies {
+
+        flex-direction: column; /* Stack quick links and technologies vertically */
+
+    }
+
+    .quick-links, .technologies{
+
+        width: 100%; /* Make each section full width */
+
+    }
+
+}
+
+/* Desktop and larger screens */
+
+@media (min-width: 769px) {
+
+    .newsletter input[type="email"] {
+
+        max-width: 200px; /* Limit input width on larger screens */
+
+    }
+
+}
  
